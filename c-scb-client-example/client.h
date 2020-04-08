@@ -14,15 +14,9 @@ char out_buf[DEFAULT_BUFLEN];												// Out buf
 
 BOOL res;																	// Return result
 HINTERNET 
-<<<<<<< HEAD
 	hSession,																// Session handler
 	hConnect,																// Connection handler
 	hRequest;																// Request handler
-=======
-	hSession,                                                           // Session handler
-	hConnect,                                                           // Connection handler
-	hRequest;                                                           // Request handler
->>>>>>> refs/remotes/origin/master
 
 void winhttp_init();														// Use WinHttpOpen to obtain a session handle.
 void winhttp_connect(unsigned short* host);									// Specify an HTTP server.
