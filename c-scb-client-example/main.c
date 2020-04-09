@@ -3,7 +3,7 @@
 
 int main() {
 
-	// Connecting to the open api at Swedish Central Agency for statistics
+	// Connecting to the open api at the Swedish Central Agency for statistics
 	unsigned short* host = L"api.scb.se";
 
 	// Table with names of newborns with at least 10 namings since 1998
