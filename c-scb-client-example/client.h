@@ -27,3 +27,4 @@ int winhttp_read_data();													// Read data until end
 void winhttp_print_data();													// Print in_buf
 void report_error();														// Report any errors.
 void winhttp_close();														// Close any open handles.
+
