@@ -18,7 +18,7 @@ HINTERNET
     hConnect,                                                           // Connection handler
     hRequest;                                                           // Request handler
 
-void winhttp_init();                                                    // Use WinHttpOpen to obtain a session handle.
+void winhttp_open();                                                    // Use WinHttpOpen to obtain a session handle.
 void winhttp_connect(unsigned short* host);                             // Specify an HTTP server.
 void winhttp_open_request(unsigned short* cmd, unsigned short* path);   // Create an HTTP request handle.
 int winhttp_send_request();                                             // Send a request.

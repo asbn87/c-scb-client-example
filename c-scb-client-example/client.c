@@ -1,6 +1,6 @@
 #include "client.h"
 
-void winhttp_init() {
+void winhttp_open() {
     memset(&out_buf, 0, sizeof(out_buf));
     memset(&in_buf, 0, sizeof(in_buf));
 

@@ -11,13 +11,13 @@ int main() {
 
     unsigned short* cmd = L"GET";
 
-    winhttp_init();
+    winhttp_open();
     winhttp_connect(host);
     winhttp_open_request(cmd, path);
+
     winhttp_send_request();
     winhttp_end_request();
     winhttp_read_data();
-
     winhttp_print_data();
 
     report_error();
