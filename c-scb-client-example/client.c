@@ -67,7 +67,7 @@ void report_error() {
     }
 }
 
-void winhttp_close() { 
+void winhttp_close() {
     if (hRequest) WinHttpCloseHandle(hRequest);
     if (hConnect) WinHttpCloseHandle(hConnect);
     if (hSession) WinHttpCloseHandle(hSession);
